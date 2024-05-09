@@ -22,7 +22,7 @@ include("database.php");
     ?>
 
 
-<div id="formBG" onclick="closeForm(1)" style="width: 100vw; height:100vh; background-color: rgba(0,0,0,90%); position:fixed; display:none; justify-content:center;">
+<div id="formBG" onclick="closeForm(1)" style="width: 100vw; height:100vh; background-color: rgba(0,0,0,50%); position:fixed; display:none; justify-content:center;">
     <form id="addForm" onclick="event.stopPropagation();" action="formAdd.php" method="post">
         <p style="font-size:x-large;font-weight:600;">Добавяне</p>
         <input placeholder="Имена*" id="formNameInput" name="name" required autocomplete="off">
